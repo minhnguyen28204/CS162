@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1676539270 source:e:\cs162\w01\ex01\22125058_ex01.cpp
+	<bits/stdc++.h>
+	"array.h"
+
+1676539630 e:\cs162\w01\ex01\array.h
+
+1676539350 source:e:\cs162\w01\ex01\array.cpp
+	<bits/stdc++.h>
+	"array.h"
+
