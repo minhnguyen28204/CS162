@@ -30,6 +30,24 @@ void DeleteList(Node* &pHead){
     }
 }
 
+void AddEnd(Node* &pHead, int x){
+    Node* Cur = pHead;
+    while (Cur->pNext){
+        Cur = Cur->pNext;
+    }
+    Node* temp = new Node;
+    temp->value = x;
+    temp->pNext = nullptr;
+    Cur->pNext = temp;
+}
+
+void AddBeginning(Node* &pHead, int x){
+    Node* temp = new Node;
+    temp->value = x;
+    temp->pNext = pHead;
+    pHead = temp;
+}
+
 void SaveListToFile(ofstream &ofs, Node* &pHead){
     while (pHead){
         ofs << pHead->value << ' ';
