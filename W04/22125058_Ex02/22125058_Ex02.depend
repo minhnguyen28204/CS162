@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1678705056 source:e:\cs162\cs162\cs162\w04\22125058_ex02\singlylinkedlist.cpp
+	<bits/stdc++.h>
+	"SinglyLinkedList.h"
+
+1678705383 e:\cs162\cs162\cs162\w04\22125058_ex02\singlylinkedlist.h
+	<fstream>
+
+1678705398 source:e:\cs162\cs162\cs162\w04\22125058_ex02\22125058_ex02.cpp
+	<iostream>
+	<fstream>
+	"SinglyLinkedList.h"
+	"Function.h"
+
+1678705123 e:\cs162\cs162\cs162\w04\22125058_ex02\function.h
+
+1678705432 source:e:\cs162\cs162\cs162\w04\22125058_ex02\function.cpp
+	"SinglyLinkedList.h"
+
