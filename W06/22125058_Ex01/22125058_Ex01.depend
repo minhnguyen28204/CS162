@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1679562808 source:e:\cs162\cs162\cs162\w06\22125058_ex01\22125058_ex01.cpp
+	<iostream>
+	"Stack.h"
+
+1679563733 e:\cs162\cs162\cs162\w06\22125058_ex01\stack.h
+
+1679563751 source:e:\cs162\cs162\cs162\w06\22125058_ex01\stack.cpp
+	<bits/stdc++.h>
+	"Stack.h"
+
