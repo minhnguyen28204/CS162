@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include "Queue.h"
 using namespace std;
 
 void init(Queue &s, int capacity){
@@ -18,39 +19,35 @@ int size(Queue s){
 }
 
 bool isEmpty(Queue s){
-    if (Size(s)==0) return true;
+    if (size(s)==0) return true;
     return false;
 }
 
 int enqueue(Queue &s, int x){
     if (size(s)==s.capacity) return -1;
-    Node* Head = s.head;
-    Node* Tail = s.tail;
-    if (Head==Tail && Tail==nullptr){
-        Head = Tail = new Node;
-        Head->data = x;
-        Head->pNext = nullptr;
+    if (s.head==s.tail && s.tail==nullptr){
+        s.head = s.tail = new Node;
+        s.head->data = x;
+        s.head->pNext = nullptr;
     }
     else{
         Node* Temp = new Node;
         Temp->data = x;
         Temp->pNext = nullptr;
-        Tail->pNext = Temp;
-        Tail = Temp;
+        s.tail->pNext = Temp;
+        s.tail = Temp;
     }
     return 1;
 }
 
 int dequeue(Queue &s){
     if (isEmpty(s)) return -1;
-    int head = s.head;
-    int tail = s.tail;
-    if (head==tail){
-        head = tail = nullptr;
+    if (s.head==s.tail){
+        s.head = s.tail = nullptr;
     }
     else{
-        Node* temp = head;
-        head = head->pNext;
+        Node* temp = s.head;
+        s.head = s.head->pNext;
         delete temp;
     }
     return 1;
@@ -58,4 +55,13 @@ int dequeue(Queue &s){
 
 void empty(Queue &s){
     while (!isEmpty(s)) dequeue(s);
+}
+
+void Delete(Queue &s){
+    Node* cur = s.head;
+    while (cur){
+        Node* temp = cur;
+        cur = cur->pNext;
+        delete temp;
+    }
 }

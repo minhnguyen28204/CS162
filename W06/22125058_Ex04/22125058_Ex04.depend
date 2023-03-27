@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1679906396 source:e:\cs162\cs162\cs162\w06\22125058_ex04\22125058_ex04.cpp
+	<bits/stdc++.h>
+	"Queue.h"
+
+1679906363 e:\cs162\cs162\cs162\w06\22125058_ex04\queue.h
+
+1679906682 source:e:\cs162\cs162\cs162\w06\22125058_ex04\queue.cpp
+	<bits/stdc++.h>
+	"Queue.h"
+

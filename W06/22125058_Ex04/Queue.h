@@ -1,4 +1,5 @@
 #pragma once
+
 struct Node{
     Node* pNext;
     int data;
@@ -16,3 +17,4 @@ int dequeue(Queue &s);
 bool isEmpty(Queue s);
 void empty(Queue &s);
 int size(Queue s);
+void Delete(Queue &s);
