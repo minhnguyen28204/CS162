@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1679563751 source:e:\cs162\cs162\cs162\w06\22125058_ex05\stack.cpp
+	<bits/stdc++.h>
+	"Stack.h"
+
+1679563733 e:\cs162\cs162\cs162\w06\22125058_ex05\stack.h
+
+1679907387 source:e:\cs162\cs162\cs162\w06\22125058_ex05\22125058_ex05.cpp
+	<iostream>
+	"Stack.h"
+	"Function.h"
+
+1679912715 e:\cs162\cs162\cs162\w06\22125058_ex05\function.h
+
+1679913216 source:e:\cs162\cs162\cs162\w06\22125058_ex05\function.cpp
+	<bits/stdc++.h>
+	"Function.h"
+	"Stack.h"
+
