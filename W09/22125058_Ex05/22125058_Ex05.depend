@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1681891937 source:e:\cs162\cs162\cs162\w09\22125058_ex05\22125058_ex05.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"Merge.h"
+
+1681890615 e:\cs162\cs162\cs162\w09\22125058_ex05\merge.h
+	<fstream>
+	<string>
+	<iostream>
+
+1681892301 source:e:\cs162\cs162\cs162\w09\22125058_ex05\merge.cpp
+	"Merge.h"
+

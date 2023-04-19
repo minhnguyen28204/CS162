@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1681220782 source:e:\cs162\cs162\cs162\w08\22125058_ex06\function.cpp
+	<iostream>
+
+1681220790 source:e:\cs162\cs162\cs162\w08\22125058_ex06\22125058_ex06.cpp
+	<iostream>
+	"Function.h"
+
+1681220588 e:\cs162\cs162\cs162\w08\22125058_ex06\function.h
+

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1681817481 source:e:\cs162\cs162\cs162\w09\22125058_ex04\spilt.cpp
+	<fstream>
+	<iostream>
+
+1681816736 source:e:\cs162\cs162\cs162\w09\22125058_ex04\22125058_ex04.cpp
+	<iostream>
+	"Spilt.h"
+
+1681816456 e:\cs162\cs162\cs162\w09\22125058_ex04\spilt.h
+	<fstream>
+

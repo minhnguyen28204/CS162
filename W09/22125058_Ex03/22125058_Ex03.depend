@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1681812399 source:e:\cs162\cs162\cs162\w09\22125058_ex03\copy.cpp
+	<fstream>
+
+1681812204 source:e:\cs162\cs162\cs162\w09\22125058_ex03\22125058_ex03.cpp
+	<iostream>
+	<fstream>
+	<iterator>
+	<algorithm>
+	"Copy.h"
+
+1681812236 e:\cs162\cs162\cs162\w09\22125058_ex03\copy.h
+	<fstream>
+
